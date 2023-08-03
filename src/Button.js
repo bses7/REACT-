@@ -1,10 +1,11 @@
-const Button = () => {
-    const clickFunction = () => {
-        alert("You clicked me!");
-      };
-    return (
-        <button onClick={clickFunction}>Click Me</button>
-    )
-}
+import "./App.css";
+
+// object descructuring
+
+const Button = (props) => {
+  const { onClick, children } = props;
+
+  return <button onClick={onClick}>{children}</button>;
+};
 
 export default Button;

@@ -8,17 +8,4 @@ body{
   background: rgba(19, 43, 40, 0.76);
 }
 
-.profile_card{
-  max-width: 800px;
-  border: 1px solid black;
-  border-radius: 4px;
-  padding: 12px 16px;
-}
-.strat{
-  width:350px;
-  height:250px;
-}
-.profile_grid{
-  display:flex;
-  gap: 5px;
-}
+

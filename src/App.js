@@ -1,20 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Button from './Button'
-import Car from './Car'
-import Profiles from './profiles'
-import Todos from './Todos'
-
+import logo from "./logo.svg";
+import Tictactoe from "./tictactoe/tictactoe";
 
 function App() {
-
- return (
-    <div>
-      <Todos />
-      {/* <Profiles /> */}
+  return (
+    <div className="App">
+      <Tictactoe />
     </div>
- );
-
-} 
+  );
+}
 
 export default App;
