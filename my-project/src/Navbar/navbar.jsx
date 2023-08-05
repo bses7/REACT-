@@ -29,17 +29,17 @@ const navbar = () => {
     },
   ];
   return (
-    <header className="container mx-auto py-7">
+    <header className="container mx-auto py-7 px-4">
       <nav className="flex justify-between ">
         <div className="font-serif">Miralou</div>
-        <div className="flex gap-12">
+        <div className="gap-12 hidden lg:flex">
           {links.map((link, index) => (
             <Link to={link.to} key={index}>
               {link.label}
             </Link>
           ))}
         </div>
-        <div className="flex gap-4">
+        <div className="gap-4 hidden lg:flex">
           <MagnifyingGlassIcon className="w-6 h-6" />
           <HeartIcon className="w-6 h-6" />
           <ShoppingCartIcon className="w-6 h-6 " />
